@@ -33,9 +33,9 @@ compute_target = cpu_cluster, the compute cluster whihc has been created in the 
 ### Results
 The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble model which was a ensemble of 26 models like Logistic regression, XGBoostClassifier, RandomForestClassifier etc. There wany different models of a single type inthe ensemble with different hyperparameters. each model had a weight assigned to it and a scaling technique for preprocessing the data. More details about the model can be obtained in the automl.ipynb notebook
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-AutoML trianing and Best Model
+
+AutoML training and Best Model
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/1fd419df-1227-486e-befa-ddc7f02c8bed)
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/0d4b6521-2964-46c5-a278-73f3bcfd0857)
