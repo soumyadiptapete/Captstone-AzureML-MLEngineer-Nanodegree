@@ -72,7 +72,7 @@ Logistic regression model was chosen because of this being a binary classficatio
 
 The max accuracy was around 0.75. The parameters were C=0.349 and iter=50. regularization strength reduces the overfitting tendency and number of iterations gives time to the gradient descent optimization in hte logistics regression loss function minimization. Thesea re the reasons behind choosing these 2 hyperparameters.
 
-Increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
+Increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a0198ba6-81bb-4b4d-9993-9f54986981b5)
@@ -107,9 +107,10 @@ input_data_json = json.dumps(input_data), convert input data to json format
 output = service.run(input_data_json), send the json to the service initalized before. Output is the model prediction
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 https://youtu.be/-eC-X_bmFOs
 
-
+## Project Improvements
+Exploratory data analysis to check for features which are having some correlations with the predicted variable using chi square tests will help in choosing important features. Increasing the timeout of AutoML might help in exploring a wider range of models.
+For Hyperdriv, increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
