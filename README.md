@@ -22,12 +22,18 @@ The csv file is uploaded in the Data section of AzureML as a Tabular file. Then,
 train_ds = Dataset.get_by_name(ws, name='pima-diabetes') where ws is ithe workspace
 
 ## Automated ML
-experiment_timeout_minutes=30, maximum time upto whihc the AutoML run will continue
+experiment_timeout_minutes=30, maximum time upto which the AutoML run will continue. Helps in reducing unneccessary use of cluster time
+
 task='classification', the task is to clasify whether a person has diabetes or not
+
 primary_metric='accuracy', The metric being tracked is Accuracy
+
 training_data=train_ds, train_ds is the training dataset
+
 label_column_name='Outcome', 'Outcome' is the column in the dataset whihc is the target column to be predicted
+
 n_cross_validations=5, number of cross validations ot perform to get the metric
+
 compute_target = cpu_cluster, the compute cluster whihc has been created in the code
 
 ### Results
