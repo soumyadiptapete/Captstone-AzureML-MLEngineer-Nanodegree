@@ -46,6 +46,11 @@ Logistic regression model was chosen because of this being a binary classficatio
 the max accuracy was around 0.75. The parameters were C=0.349 and iter=50. Increasing the number of iterations could increase the model performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 
 *TODO* Remember to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a0198ba6-81bb-4b4d-9993-9f54986981b5)
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/4cd5290b-2254-4a96-94ea-53a3a6f4d97b)
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/874a8966-be3a-4a5b-ae64-54807f0788ba)
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7a870b5f-d357-4daa-acf9-0f52b2299560)
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/e45ee0ed-ce66-4952-bf47-d9cb5d88527f)
 
 ## Model Deployment
 
