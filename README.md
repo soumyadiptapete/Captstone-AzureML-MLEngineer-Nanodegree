@@ -35,6 +35,20 @@ The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble mo
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
+AutoML trianing and Best Model
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/1fd419df-1227-486e-befa-ddc7f02c8bed)
+
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/0d4b6521-2964-46c5-a278-73f3bcfd0857)
+
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/8e66a78c-350c-421f-935c-5b3636c55120)
+
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7f7e84c4-8fe0-41d2-8b5a-8817b90231a9)
+
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/dc098a05-3760-4f86-90a9-b05b5d5afedc)
+
+Deployed model
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/ff89103e-4eed-4cc6-b8d2-9fcbfab2bcc1)
+
 
 ## Hyperparameter Tuning
 
@@ -45,11 +59,15 @@ Logistic regression model was chosen because of this being a binary classficatio
 
 the max accuracy was around 0.75. The parameters were C=0.349 and iter=50. Increasing the number of iterations could increase the model performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 
-*TODO* Remember to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a0198ba6-81bb-4b4d-9993-9f54986981b5)
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/4cd5290b-2254-4a96-94ea-53a3a6f4d97b)
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/874a8966-be3a-4a5b-ae64-54807f0788ba)
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7a870b5f-d357-4daa-acf9-0f52b2299560)
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/e45ee0ed-ce66-4952-bf47-d9cb5d88527f)
 
 ## Model Deployment
