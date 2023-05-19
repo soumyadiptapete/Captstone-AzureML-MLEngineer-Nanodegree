@@ -48,6 +48,9 @@ AutoML training and Best Model
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/8e66a78c-350c-421f-935c-5b3636c55120)
 
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/3d8c663a-1739-46fc-963e-44a0bd036ebf)
+
+
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7f7e84c4-8fe0-41d2-8b5a-8817b90231a9)
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/dc098a05-3760-4f86-90a9-b05b5d5afedc)
