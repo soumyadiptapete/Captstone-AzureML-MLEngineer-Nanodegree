@@ -6,7 +6,10 @@
  The goal of this project is to classify whether a female person has diabetes or not. This is a binary classification problem. 
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+Upload the pima_diabetes.csv file in the Dat section of AzureML as a tabular file
+The AutoML run can be run by just running the automl.ipynb notebook
+The conda_dependencies.yml file should be present in Azure file system when running the hyperdrive run run in the hyperparameter_tuning.ipynb notebook
+
 
 ## Dataset
 The pima_diabetes.csv file contains the 8 input features for the classification problem. The target column is 'Outcome' which is 1 when the person has diabetes and 0 when they don't have diabetes. The features are number of pregnancies, glcucose concentration, blood pressure, skin fold thickness, serum insulin, BMI, diabetes pedigree function and age
