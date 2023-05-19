@@ -68,7 +68,7 @@ Logistic regression model was chosen because of this being a binary classficatio
 
 The max accuracy was around 0.75. The parameters were C=0.349 and iter=50. regularization strength reduces the overfitting tendency and number of iterations gives time to the gradient descent optimization in hte logistics regression loss function minimization. Thesea re the reasons behind choosing these 2 hyperparameters.
 
-Increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. Increasing the range of C from 0 to 1 shoul also help in exploring a larger range of parameters. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
+Increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a0198ba6-81bb-4b4d-9993-9f54986981b5)
