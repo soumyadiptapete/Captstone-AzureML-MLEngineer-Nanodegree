@@ -97,22 +97,13 @@ Increasing the number of iterations could increase the model performance because
 
 The deployed model is the VotingEnsemble produced by AutoML since it had a higher accuracy of 0.78.
 
-The below code snippet gives a breakdown of model query procedure
+The below mentioned process describes the model query procedure
 
-service_name = 'automl-best-model1', get the name of the deployed endpoint
-
-service = Webservice(ws, name=service_name), intialize the Webservice
-
-input_data = {
-    'data': [
-        {'Pregnancies': 6, 'Glucose': 8, 'BloodPressure':72, 'SkinThickness':35, 'Insulin':0,
-    'BMI':33.6,'DiabetesPedigreeFunction':0.627,'Age':50}  
-    ]
-}, create input data that will be sent to the model
-
-input_data_json = json.dumps(input_data), convert input data to json format
-
-output = service.run(input_data_json), send the json to the service initalized before. Output is the model prediction
+1) The endpoint.py script is used for querying the model HTTP endpoint
+2) Copy the REST endpoint and the primary key from the Endpoints -> Select Model -> Consume page in AzureML UI and paste them in the endpoint.py scoring_uri and key respectively
+3) Change the data format in the endpoint.py as per the columns in the datset. The format of the dat can also be checked in the Consume page mentioned in Point 2
+4) Open a Terminal window in AzureML and run python endpoint.py in the teminal
+5) The results of the data query sent are displayed in the terminal
 
 ## Screen Recording
 https://youtu.be/-eC-X_bmFOs
