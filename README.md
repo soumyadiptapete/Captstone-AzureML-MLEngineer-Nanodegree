@@ -44,7 +44,7 @@ The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble mo
 
 Logistic regression was the best performing model in terms of accuracy. The XGBoost classifier models were second. Thereafter, other models like LIghtGBM, RandomForestClassifier, ExtremeRandomTrees followed in terms of accuracy
 
-#####Performance of various models produced by AutoML
+##### Performance of various models produced by AutoML
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a99c10e7-a50d-4b25-b7d3-57f11adeeca4)
 
 
