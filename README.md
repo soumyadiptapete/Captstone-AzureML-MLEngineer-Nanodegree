@@ -59,8 +59,16 @@ AutoML training and Best Model
 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/dc098a05-3760-4f86-90a9-b05b5d5afedc)
 
-Deployed model
+Best model metrics
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/5f575cd7-096d-4312-a378-1bbf14b92c81)
+
+
+Deployed model screenshot from AzureML UI
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/ff89103e-4eed-4cc6-b8d2-9fcbfab2bcc1)
+
+Call to the deployed model endpoint using endpoint.py and returned result from model
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/84ec562a-cb11-4da9-8fd8-d148091a9ace)
+
 
 
 ## Hyperparameter Tuning
