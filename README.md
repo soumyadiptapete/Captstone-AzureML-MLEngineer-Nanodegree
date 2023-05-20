@@ -26,19 +26,20 @@ The csv file is uploaded in the Data section of AzureML as a Tabular file. Then,
 train_ds = Dataset.get_by_name(ws, name='pima-diabetes') where ws is ithe workspace
 
 ## Automated ML
-experiment_timeout_minutes=30, maximum time upto which the AutoML run will continue. Helps in reducing unneccessary use of cluster time
+The below points describe the AutoML configuration which is set using the AutoMLConfig() in the code
+1) experiment_timeout_minutes=30, maximum time upto which the AutoML run will continue. Helps in reducing unneccessary use of cluster time
 
-task='classification', the task is to clasify whether a person has diabetes or not
+2) task='classification', the task is to clasify whether a person has diabetes or not
 
-primary_metric='accuracy', The metric being tracked is Accuracy
+3) primary_metric='accuracy', The metric being tracked is Accuracy since this a binary classification problem
 
-training_data=train_ds, train_ds is the training dataset
+4) training_data=train_ds, training_needs the dataset whihc has to be loaded before it is passed to AutoML Config
 
-label_column_name='Outcome', 'Outcome' is the column in the dataset whihc is the target column to be predicted
+5) label_column_name='Outcome', 'Outcome' is the  name of the column in the dataset which is the target column to be predicted
 
-n_cross_validations=5, number of cross validations ot perform to get the metric
+6) n_cross_validations=5, number of cross validations ot perform to get the metric
 
-compute_target = cpu_cluster, the compute cluster whihc has been created in the code
+7) compute_target = cpu_cluster, the compute target needs to be passed hte compute cluster whihc is created in the code
 
 ### Results
 The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble model which was a ensemble of different models like Logistic regression, XGBoostClassifier, RandomForestClassifier etc. There were different models of a single type in the ensemble with different hyperparameters. each model had a weight assigned to it and a scaling technique for preprocessing the data. More details about the model can be obtained in the automl.ipynb notebook
