@@ -114,6 +114,7 @@ The below mentioned process describes the model query procedure
 5) The results of the data query sent are displayed in the terminal
 
 ## Screen Recording
+The video shows the model query procedure using the endpoint.py script
 [https://youtu.be/-eC-X_bmFOs](https://youtu.be/KYXcdR8ppfM)
 
 ## Project Improvements
