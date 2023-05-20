@@ -80,24 +80,25 @@ Call to the deployed model endpoint using endpoint.py and returned result from m
 
 ## Hyperparameter Tuning
 
-Logistic regression model was chosen because of this being a binary classfication task. The hyperparameters being optimized were inverse regularization strength 'C' and number of iterations 'iter'. The C paramters was varied in the range 0.1 to 0.4 and the number of iteratins were chosen randomly from 12,25 and 50
+Logistic regression model was chosen because of this being a binary classfication task. The hyperparameters being optimized were inverse regularization strength 'C' and number of iterations 'iter'. The C parameters was varied in the range 0.1 to 0.4 and the number of iteratins were chosen randomly from 12,25 and 50
 
 
 ### Results
 
-The max accuracy was around 0.75. The parameters were C=0.349 and iter=50. regularization strength reduces the overfitting tendency and number of iterations gives time to the gradient descent optimization in hte logistics regression loss function minimization. Thesea re the reasons behind choosing these 2 hyperparameters.
+The max accuracy was around 0.75. The parameters were C=0.349 and iter=50. Regularization strength reduces the overfitting tendency and number of iterations gives time to the gradient descent optimization in hte logistics regression loss function minimization. These are the reasons behind choosing these 2 hyperparameters.
 
-Increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
+Increasing the number of iterations could increase the model performance because it can be seen in the screenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 
-
+Accuracy of different runs in Hyperdrive run
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a0198ba6-81bb-4b4d-9993-9f54986981b5)
 
-![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/4cd5290b-2254-4a96-94ea-53a3a6f4d97b)
-
+Run Details widget showing status of HyperDrive Run
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/874a8966-be3a-4a5b-ae64-54807f0788ba)
 
+Accuracy metrics and and their respective parameters for HyperDrive run
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7a870b5f-d357-4daa-acf9-0f52b2299560)
 
+Best Run ID and the accuracy of the run
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/e45ee0ed-ce66-4952-bf47-d9cb5d88527f)
 
 ## Model Deployment
@@ -118,5 +119,4 @@ The below mentioned process describes the model query procedure
 ## Project Improvements
 Exploratory data analysis to check for features which are having some correlations with the predicted variable using chi square tests will help in choosing important features. Increasing the timeout of AutoML might help in exploring a wider range of models.
 For Hyperdrive, increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
