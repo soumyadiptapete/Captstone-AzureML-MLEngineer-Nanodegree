@@ -106,7 +106,7 @@ The below mentioned process describes the model query procedure
 5) The results of the data query sent are displayed in the terminal
 
 ## Screen Recording
-https://youtu.be/-eC-X_bmFOs
+[https://youtu.be/-eC-X_bmFOs](https://youtu.be/KYXcdR8ppfM)
 
 ## Project Improvements
 Exploratory data analysis to check for features which are having some correlations with the predicted variable using chi square tests will help in choosing important features. Increasing the timeout of AutoML might help in exploring a wider range of models.
