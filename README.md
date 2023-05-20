@@ -40,26 +40,33 @@ n_cross_validations=5, number of cross validations ot perform to get the metric
 compute_target = cpu_cluster, the compute cluster whihc has been created in the code
 
 ### Results
-The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble model which was a ensemble of different models like Logistic regression, XGBoostClassifier, RandomForestClassifier etc. There wany different models of a single type inthe ensemble with different hyperparameters. each model had a weight assigned to it and a scaling technique for preprocessing the data. More details about the model can be obtained in the automl.ipynb notebook
+The AutoML model provided a best accuracy of around 0.78. The Voting Ensemble model which was a ensemble of different models like Logistic regression, XGBoostClassifier, RandomForestClassifier etc. There were different models of a single type in the ensemble with different hyperparameters. each model had a weight assigned to it and a scaling technique for preprocessing the data. More details about the model can be obtained in the automl.ipynb notebook
 
-![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a99c10e7-a50d-4b25-b7d3-57f11adeeca4)
 Logistic regression was the best performing model in terms of accuracy. The XGBoost classifier models were second. Thereafter, other models like LIghtGBM, RandomForestClassifier, ExtremeRandomTrees followed in terms of accuracy
 
-AutoML training and Best Model
+Performance of various models produced by AutoML
+![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/a99c10e7-a50d-4b25-b7d3-57f11adeeca4)
+
+
+RunDetails widget showing progess of AutoML
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/1fd419df-1227-486e-befa-ddc7f02c8bed)
 
+Accuracy of Different AutoML models
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/0d4b6521-2964-46c5-a278-73f3bcfd0857)
 
+Best AutoML model run ID 
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/8e66a78c-350c-421f-935c-5b3636c55120)
 
+Best AutoML model description
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/3d8c663a-1739-46fc-963e-44a0bd036ebf)
 
-
+Best AutoML model accuracy
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/7f7e84c4-8fe0-41d2-8b5a-8817b90231a9)
 
+Best AutoML model i.e. Voting Ensemble cosntituent models and their weights
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/dc098a05-3760-4f86-90a9-b05b5d5afedc)
 
-Best model metrics
+Best AutoML model metrics
 ![image](https://github.com/soumyadiptapete/Captstone-AzureML-MLEngineer-Nanodegree/assets/20270621/5f575cd7-096d-4312-a378-1bbf14b92c81)
 
 
@@ -110,6 +117,6 @@ The below mentioned process describes the model query procedure
 
 ## Project Improvements
 Exploratory data analysis to check for features which are having some correlations with the predicted variable using chi square tests will help in choosing important features. Increasing the timeout of AutoML might help in exploring a wider range of models.
-For Hyperdriv, increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
+For Hyperdrive, increasing the number of iterations could increase the model performance because it can be seen in th escreenshots that the highest accuracy was observed of iterations=50. The effect of C on accuracy is not very evident from the results bu the range of C can be increased nevertheelsess from 0 to 1 to check performance. Also,  techniques like Bayesian parameter sampling which take into account the previous explored hyperparameters to reduce wasteful search can improve the hyperparameter optimization. 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
