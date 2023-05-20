@@ -6,9 +6,10 @@
  The goal of this project is to classify whether a female person has diabetes or not. This is a binary classification problem. 
 
 ## Project Set Up and Installation
-Upload the pima_diabetes.csv file in the Dat section of AzureML as a tabular file. Name of the data asset should be pima-diabetes
-The AutoML run can be run by just running the automl.ipynb notebook. For querying the deployed model HTTP endpoint, use the endpoint.py script. Details on Model HTTP endpoint querying are provided later
-The conda_dependencies.yml file should be present in Azure file system when running the hyperdrive run run in the hyperparameter_tuning.ipynb notebook
+1) Upload the pima_diabetes.csv file in the Data section of AzureML as a tabular file.
+2)  Name of the data asset should be pima-diabetes
+3) The AutoML run can be run by just running the automl.ipynb notebook. For querying the deployed model HTTP endpoint, use the endpoint.py script. Details on Model HTTP endpoint querying are provided later
+4) The conda_dependencies.yml file should be present in Azure file system when running the hyperdrive run run in the hyperparameter_tuning.ipynb notebook
 
 
 ## Dataset
